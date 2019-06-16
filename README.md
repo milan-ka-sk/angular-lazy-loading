@@ -6,3 +6,5 @@ ng new lazyDemo --routing
 ng g module lazy --flat
 
 ng g c lazy-parent --module lazy
+
+ng g c lazy-child --module lazy

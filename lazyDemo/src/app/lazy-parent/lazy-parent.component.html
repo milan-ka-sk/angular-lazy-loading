@@ -1,3 +1,5 @@
-<p>
-  lazy-parent works!
-</p>
+<h1>Lazy parent...</h1>
+<div *ngFor="let name of ['foo', 'bar', 'baz']">
+  <p>Hi, my name is {{name}}. I am a lazy child component.</p>
+  <app-lazy-child></app-lazy-child>
+</div>
